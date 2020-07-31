@@ -1,0 +1,69 @@
+.actions__container {
+	display: flex;
+	justify-content: center;
+}
+
+.actions__container--hack {
+	padding-top: 80px;
+}
+
+.fetchbutton {
+	color: #FFF;
+	background-color: #2C97D1;
+	border-radius: 10px;
+	min-width: 190px;
+	min-height: 56px;
+	border: none;
+	cursor: pointer;
+	user-select: none;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: .4rem;
+	outline: none;
+	padding: 0 20px 0;
+}
+
+.fetchbutton::disabled {
+	cursor: not-allowed;
+}
+
+.fetchbutton:hover {
+	box-shadow: 0 0 5px 0 #2C97D1 inset, 0 0 5px 2px #2C97D1;
+	border: 1px solid #2C97D1;
+}
+
+.fetchbutton--dark {
+	background-color: #fff;
+	color: #2A2A2A;
+	text-transform: lowercase;
+	letter-spacing: unset;
+	font-weight: normal;
+}
+
+.fetchbutton--dark:hover {
+	box-shadow: 0 0 5px 0 #FBFE63 inset, 0 0 5px 2px #FBFE63;
+	border: 1px solid #FBFE63;
+}
+
+.fetchbutton--light {
+	background-color: #2A2A2A;
+	color: #FBFE63;
+	letter-spacing: unset;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+.fetchbutton--light:hover {
+	box-shadow: 0 0 5px 0 #2A2A2A inset, 0 0 5px 2px #2A2A2A;
+	border: 1px solid #2A2A2A;
+}
+
+@media only screen and (max-width: 800px) {
+	.actions__container--hack {
+		padding-top: 500px;
+	}
+}

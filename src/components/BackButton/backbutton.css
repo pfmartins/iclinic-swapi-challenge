@@ -1,0 +1,10 @@
+.backbutton {
+	position: absolute;
+	top: 35px;
+	left: 50px;
+	width: 60px;
+	cursor: pointer;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+  }
